@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // calling the api
-async function getUserDetails(){
+ async function getUserDetails(){
   //This is to add delay so we can see the loading state
   // await new Promise((resolve) => setTimeout(resolve, 5000));
   const response = await axios.get("http://localhost:3000/api/user");
